@@ -1,0 +1,96 @@
+<form>
+
+    <!--<div class="form-group col-md-3">-->
+    <!--<label for="input1">Input</label>-->
+    <!--<input type="text" cam-variable-name="ad" cam-variable-type="Boolean" class="form-control" id="input1" placeholder="key">-->
+    <!--</div>-->
+
+    <!--&lt;!&ndash;<div class="form-row">&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="form-group col-md-3">&ndash;&gt;-->
+            <!--&lt;!&ndash;<label for="input1">Input</label>&ndash;&gt;-->
+            <!--&lt;!&ndash;<input type="text" ng-model="obj.input" class="form-control" id="input1" placeholder="key">&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="form-group col-md-3">&ndash;&gt;-->
+            <!--&lt;!&ndash;<label for="input2">Output</label>&ndash;&gt;-->
+            <!--&lt;!&ndash;<input type="text" ng-model="obj.output" class="form-control" id="input2" placeholder="value">&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<div class="form-group col-md-3">&ndash;&gt;-->
+            <!--&lt;!&ndash;<br>&ndash;&gt;-->
+            <!--&lt;!&ndash;<button  ng-click="addRule()"  class="btn btn-secondary">add</button>&ndash;&gt;-->
+            <!--&lt;!&ndash;<button>d</button>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--&lt;!&ndash;<div class="form-group col-md-3">&ndash;&gt;-->
+            <!--&lt;!&ndash;<table>&ndash;&gt;-->
+                <!--&lt;!&ndash;<thead>&ndash;&gt;-->
+                <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<th>key</th>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<th>value</th>&ndash;&gt;-->
+                <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                <!--&lt;!&ndash;</thead>&ndash;&gt;-->
+                <!--&lt;!&ndash;<tbody>&ndash;&gt;-->
+                <!--&lt;!&ndash;<tr ng-repeat="i in obj">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<td>{{i.input}} , {{i.output}}</td>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<td><button class="btn btn-danger" ng-click="deleteRule(i)">X</button></td>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<td><button type="submit" ng-click="editRule(i)" class="btn btn-primary">Edit</button></td>&ndash;&gt;-->
+                <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+                <!--&lt;!&ndash;</tbody>&ndash;&gt;-->
+            <!--&lt;!&ndash;</table>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+    <!--<button class="btn btn-danger" ng-click="on()" id="c">add</button>-->
+
+    <!--<script cam-script type="text/form-script">-->
+
+
+   <!--var variableManager = camForm.variableManager;-->
+
+        <!--camForm.on('form-loaded', function() {-->
+
+        <!--});-->
+
+
+
+
+
+
+      <!--var all_variable = $scope.obj =[];-->
+      <!--var index=-1;-->
+        <!--$scope.addRule = function(){-->
+                <!--if(index != -1){-->
+
+              <!--$scope.obj[index].input = $scope.obj.input ;-->
+             <!--$scope.obj[index].output = $scope.obj.output ;-->
+
+                <!--index=-1;-->
+
+            <!--}else{-->
+                <!--$scope.obj.push({"input":$scope.obj.input,"output":$scope.obj.output});-->
+                <!--}-->
+        <!--}-->
+        <!--$scope.deleteRule =function($element){-->
+         <!--for (var ix=0; ix<$scope.obj.length; ix++) {-->
+                <!--if($element.input==$scope.obj[ix].input){-->
+                    <!--$scope.obj.splice(ix, 1);-->
+                    <!--]-->
+                <!--}-->
+            <!--}-->
+           <!--console.log($element);-->
+        <!--}-->
+        <!--$scope.editRule = function($element){-->
+
+        <!--for (var ix=0; ix<$scope.obj.length; ix++) {-->
+            <!--if($element.input==$scope.obj[ix].input){-->
+                    <!--index = ix;-->
+                    <!--break;-->
+                <!--}-->
+            <!--}-->
+             <!--$scope.obj.input = $scope.obj[index].input;-->
+             <!--$scope.obj.output = $scope.obj[index].output;-->
+
+
+        <!--}-->
+    <!--</script>-->
+    <!--<br>-->
+    <!--<br>-->
+</form>
